@@ -233,19 +233,15 @@ func isFibonacciNum(num: Int) -> Int{
     var fibo = 1
     var num1 = 0
     var num2 = 0
-    var i = 0
-    for _ in 1...num{
-        num2 = num1 + fibo
-        num1 = num2 + fibo
-        i = num1
-        
-        
-        
+    for _ in 1...num - 2{
+        num1 = fibo + num2
+        num2 = fibo
+        fibo = num1
     }
-    return i
+    return fibo
 
 }
-
+//피보나치 완성
 isFibonacciNum(num: 5)
 
 
