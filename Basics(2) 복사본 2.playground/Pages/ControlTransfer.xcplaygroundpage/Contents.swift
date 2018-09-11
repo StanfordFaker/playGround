@@ -90,5 +90,5 @@ OUTER: for i in 0 ... 3 {
   print("outer \(i)")
 }
 
-
+test
 //: [Next](@next)
