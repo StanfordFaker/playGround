@@ -108,3 +108,8 @@ func multiGardeCheck(_ Value: Int...) -> String {
     }
 }
 multiGardeCheck(100, 10, 40, 50, 90, 100)
+
+
+
+
+
