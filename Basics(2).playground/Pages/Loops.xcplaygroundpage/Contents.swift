@@ -275,5 +275,6 @@ func fibonacciNumber(_ a: Int) {
 }
 
 fibonacciNumber(5)
+fibonacciNumber(7)
 
 //: [Next](@next)
