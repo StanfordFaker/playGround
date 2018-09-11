@@ -87,9 +87,8 @@ sigleGardeCheck(Value: 80)
  */
 func multiGardeCheck(_ Value: Int...) -> String {
     var total = 0
-    for i in Value {
-        total += i
-        print(total)
+    for Value in Value {
+        total += Value
     }
     total /= Value.count
     print(total)
